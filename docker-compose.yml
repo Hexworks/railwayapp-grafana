@@ -9,7 +9,7 @@ services:
     restart: unless-stopped
     environment:
       - TZ=Europe/Amsterdam
-      - GF_DEFAULT_INSTANCE_NAME=my-instance
+      - GF_DEFAULT_INSTANCE_NAME=Grafana
       - GF_SECURITY_ADMIN_USER=owner
       - GF_LOG_MODE=console
     ports:
